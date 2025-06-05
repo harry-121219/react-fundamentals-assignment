@@ -1,0 +1,142 @@
+body {
+  font-family: var(--font-geist-sans);
+  margin: 0;
+  padding: 40px;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #005bb5;
+}
+
+.card {
+  background-color: #f9fcff;
+  border: 1px solid #dce5f3;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  margin-top: 0;
+  color: #005bb5;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.example {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 8px;
+}
+
+.welcome {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.welcome h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #0070f3;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.site-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0070f3;
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+button, .card, .example {
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
