@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 40px;
   background-color: #f4f7fa;
-  color: #333;
+  color: #bb33a6;
 }
 
 .container {
@@ -20,12 +20,12 @@ nav {
 }
 
 nav button {
-  background-color: #0070f3;
+  background-color: #23c963;
   color: white;
   border: none;
   padding: 12px 20px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-right: 10px;
   border-radius: 6px;
   cursor: pointer;
@@ -33,12 +33,12 @@ nav button {
 }
 
 nav button:hover {
-  background-color: #005bb5;
+  background-color: #23c963;
 }
 
 .card {
-  background-color: #f9fcff;
-  border: 1px solid #dce5f3;
+  background-color: #9ccb2d;
+  border: 1px solid #020710;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -50,29 +50,30 @@ section {
 
 section h3 {
   margin-top: 0;
-  color: #005bb5;
+  color: #893873;
 }
 
 button {
   margin-top: 10px;
   padding: 10px 16px;
   border: none;
-  background-color: #0070f3;
+  background-color: #23c963;
   color: white;
   font-weight: bold;
   border-radius: 6px;
   cursor: pointer;
+  align-self: auto;
 }
 
 button:hover {
-  background-color: #005bb5;
+  background-color: #23c963;
 }
 
 .example {
   margin-top: 10px;
   padding: 15px;
   background-color: #e6f7ff;
-  border: 1px solid #91d5ff;
+  border: 1px solid #de882c;
   border-radius: 8px;
 }
 
@@ -89,13 +90,13 @@ button:hover {
 
 .welcome p {
   font-size: 18px;
-  color: #444;
+  color: #acac1c;
   max-width: 600px;
   margin: 0 auto;
 }
 
 .highlight {
-  color: #0070f3;
+  color: #209a57;
 }
 
 .site-header {
